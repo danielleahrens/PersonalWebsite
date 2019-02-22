@@ -10,38 +10,14 @@ class App extends Component {
             <p>
               Danielle Ahrens
             </p>
-            <ul>
-              <li>
                 <a
                   className="App-link"
                   href="https://danielleahrens.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Home <br /> <br />
+                  home <br/> <br/>
                 </a>
-              </li>
-              <li>
-                <a
-                  className="App-link"
-                  href="https://danielleahrens.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Home2 <br /> <br />
-                </a>
-              </li>
-              <li>
-                <a
-                  className="App-link"
-                  href="https://danielleahrens.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Home3 <br /> <br />
-                </a>
-              </li>
-            </ul>
             <img src={logo} className="App-logo" alt="logo" />
 
           </header>
