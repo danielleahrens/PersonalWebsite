@@ -1,5 +1,7 @@
 body {
   background-color: #ebebeb;
+  max-width: 650px;
+  margin: auto;
 }
 
 a {
@@ -9,18 +11,22 @@ a {
 
 div.hero {
   text-align: center;
+  margin: 20px 20px 20px 20px;
+  display: block;
 }
 
 img.hero-image {
-  margin: 40px 0px 20px 0px;
-  max-width: 80vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 h1.hero-title {
   font-weight: bolder;
   color: #1d450a;
   font-family: monospace;
-  font-size: calc(25px + 3.5vw);
+  font-size: 52px;
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -28,7 +34,7 @@ h1.hero-title {
 div.hero-menu {
   display: flex;
   color: #1d450a;
-  font-size: calc(20px + 1vw);
+  font-size: 24px;
   justify-content: center;
   position: relative;
 }
@@ -52,16 +58,17 @@ div.hero-menu-item:focus {
 div.hero-menu-divider {
   border-top-style: solid;
   border-color: #1d450a;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
   margin-top: -1.7em;
   margin-bottom: 1.7em;
   z-index: -1;
 }
 
 div.copy {
-  margin: 4% 15% 0% 15%;
+  display: block;
+  margin: 30px 40px 0px 40px;
   font-size: 15px;
 }
 
@@ -70,15 +77,39 @@ h2 {
   margin-bottom: 30px;
   color: #1d450a;
   font-family: sans-serif;
-  font-size: calc(20px + 0.8vw);
+  font-size: 18px;
   font-weight: bold;
+}
+
+h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #1d450a;
+  font-family: sans-serif;
+  font-size: calc(14px + 0.8vw);
+  font-weight: normal;
 }
 
 p {
   color: #1d450a;
   font-family: sans-serif;
-  font-size: calc(16px + 0.8vw);
+  font-size: 14px;
   margin-top: 30px;
+}
+
+p.blog-copy {
+  text-align: left;
+}
+
+a.blog-link {
+  text-decoration: underline;
+}
+
+.blog-unordered-list {
+  color: #1d450a;
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: left;
 }
 
 div.footer-contact {
@@ -93,15 +124,4 @@ a.footer-link {
 
 .footer-link-logo {
   font-size: calc(25px + 0.8vw);
-}
-
-@media screen and (min-width: 1600px) {
-  div.hero-menu {
-    font-size: 40px;
-  }
-
-  div.hero-menu-divider {
-    margin-top: -30px;
-    margin-bottom: 30px;
-  }
 }
