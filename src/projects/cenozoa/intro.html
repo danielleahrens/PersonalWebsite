@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Danielle Ahrens</title>
+    <link rel="shortcut icon" type="image/jpg" href="images/tree-solid.svg"/>
+    <link rel="stylesheet" type="text/css" href="../../stylesheet.css" media="screen"/>
+    <script src="https://kit.fontawesome.com/3b15d3b646.js" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LJV0ZGP57D"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-LJV0ZGP57D');
+    </script>
+  </head>
+  <body>
+    <div class=hero>
+      <h1 class=hero-title>
+        <a href="index.html">Danielle Ahrens</a>
+      </h1>
+      <div class=hero-menu>
+        <div class=hero-menu-item><a href="../../about.html">About</a></div>
+        <div class=hero-menu-item><a href="../../projects.html">Projects</a></div>
+        <div class=hero-menu-item><a href="images/ahrens_resume.pdf" download>Re&#769;sume&#769;</a></div>
+        <div class=hero-menu-item><a class=hero-menu-item-link href="mailto:danielle.c.ahrens+websiteinquiry@gmail.com">Contact</a></div>
+      </div>
+      <div class=hero-menu-divider></div>
+      <div class=copy>
+        <h2>Cenozoa: an IoT Farm Platform</h2>
+        <p class=blog-copy>*Record scratch* *freeze frame* yup, that's me. You're probably wondering how I ended up self-hosting my own custom built web application platform with fully integrated, specially made IoT devices.</p>
+        <img class=hero-image src=../../images/cenozoa_diagram.png alt=""/>
+        <p class=blog-copy>Well, it all started with a desire to increase my self-sufficency and lower my environmental impact by starting a sustainable mini-farm. As I studied about various farming techniques, I realized something: farming is <i>a lot</i> of work. It takes daily monitoring to keep a farm running smoothly and efficiently:</p>
+        <ul class=blog-unordered-list>
+          <li>Properly irrigate your soil. Water too much? plants dead. Too little? dead.</li>
+          <li>Maintain the proper temperature in your cold frames by opening and closing vents. Plants get too cold? dead. Too hot? Immediately dead.</li>
+          <li>Keep the snow off your cold frames lest you risk starving your cold weather plants of light resulting in their slow demise.</li>
+        </ul>
+        <p class=blog-copy>Great news! You've managed to keep your plants alive long enough to harvest!</p>
+        <ul class=blog-unordered-list>
+          <li>Now you better maintain the right temperature and humidity in your root cellar. If not? Decaying produce, all of it, all at once.</li>
+          <li>Speaking of decomposition, you hope to reduce costs by using your own garden waste as compost? Make sure you get that pile up to proper temperature and maintain the right moisture if you want that pile to be useful anytime soon.</li>
+          <li>Now don't even get me started on the chickens. Let the chickens out to roam daily for their health and well-being, but put them back in the coop at night also for their health and well-being.</li>
+          <li>And remember, you're living in the frigid white North, so make sure the coop is heated in the winter so the chickens don't freeze.</li>
+        </ul>
+        <p class=blog-copy>My engineering mind immediately began to wonder: how many of these tasks could be automated? There are, of course, many off-the-shelf solutions that could help: automated irrigation systems, IoT temperature monitors, even a modified internet connected garage door opener could possibly be used on a chicken coop. But these off-the-shelf solutions:</p>
+        <ol class=blog-unordered-list>
+          <li>Are so expensive!</li>
+          <li>Wouldn't have a single unified platform to manage everything</li>
+          <li>Have privacy concerns: where exactly is all this data going? Is it secure? How do I know this information isn't going to be sold to some internet ads company?</li>
+          <li>Some systems just don't exist: where could I find a system that will open and close a cold frame depending on the temperature and/or the amount of snow covering the window?</li>
+        </ol>
+        <p class=blog-copy>As I considered this, I realized that I could just build my own high-tech, fully integrated system exactly to my needs. And so I did. From the hand assembled hardware and firmware, to the self-hosted web server, database and user interface, the Cenozoa IoT Farm Platform is soup to nuts custom built for me, by me.</p>
+        <img class=hero-image src=../../images/landing_page.png alt=""/>
+        <p class=blog-copy>Starting with a simple temperature and humidity monitoring and alerting system, this platform will grow to include custom built irrigation systems for garden beds, a temperature and moisture monitoring system for compost piles, automated temperature and light level controls for winter growing in cold frames and automated doors and heating of a chicken coop. The status of all these sensors can all be easily viewed and adjusted through one portal.</p>
+        <p class=blog-copy>Curious about how it all works? Take a deeper dive:
+          <ul class=blog-unordered-list>
+            <li>Web server: <a class=blog-link href="https://github.com/danielleahrens/cenozoa">github.com/danielleahrens/cenozoa</a></li>
+            <li>User interface: <a class=blog-link href="https://github.com/danielleahrens/attenborough">github.com/danielleahrens/attenborough</a></li>
+            <li>Sensor firmware: <a class=blog-link href="https://github.com/danielleahrens/batCave">github.com/danielleahrens/batCave</a></li>
+          </ul>
+        </p>
+        <p class=blog-copy>
+          Check back in the future for more details about each of the components of this system!
+        </p>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class=footer-contact>
+      <a class="footer-link" href="https://www.linkedin.com/in/danielle-ahrens-99938240/"><i class="fab fa-linkedin footer-link-logo"></i></a>
+      <a class=footer-link href="https://github.com/danielleahrens"><i class="fab fa-github-square footer-link-logo"></i></a>
+      <a class=footer-link href="https://twitter.com/dcahrens"><i class="fab fa-twitter-square footer-link-logo"></i></a>
+      <a class=footer-link href="mailto:danielle.c.ahrens+websiteinquiry@gmail.com"><i class="fas fa-envelope footer-link-logo"></i></a>
+    </div>
+  </footer>
+</html>

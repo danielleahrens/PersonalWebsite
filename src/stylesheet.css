@@ -70,11 +70,12 @@ div.copy {
   display: block;
   margin: 30px 40px 0px 40px;
   font-size: 15px;
+  text-align: left;
 }
 
 h2 {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
   color: #1d450a;
   font-family: sans-serif;
   font-size: 18px;
@@ -94,7 +95,33 @@ p {
   color: #1d450a;
   font-family: sans-serif;
   font-size: 14px;
-  margin-top: 30px;
+  margin-top: 20px;
+}
+
+.blog-title {
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.blog-date {
+  text-align: left;
+  margin-top: 0px;
+}
+
+.blog-teaser {
+  text-align: left;
+  margin-top: 0px;
+}
+
+.blog-read-more {
+  font-family: sans-serif;
+  font-size: 14px;
+  text-align: right;
+}
+
+.blog-read-more:hover {
+  text-decoration: underline;
 }
 
 p.blog-copy {
